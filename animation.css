@@ -1,0 +1,21 @@
+.container
+{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    text-align: center;
+    animation-name: fontAnimation;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-duration: normal;
+    animation-iteration-count:3 ;
+    animation-timing-function: ease-in;
+}
+@keyframes fontAnimation {
+    from {
+        font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
